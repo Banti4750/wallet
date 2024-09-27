@@ -1,0 +1,28 @@
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background: #333;  */
+    padding: 10px 20px; /* Padding around the content */
+    color: white; /* Text color */
+  }
+  
+  .coin img {
+    width: 50px;  /* Width of the images */
+    height: 50px; /* Height of the images */
+    margin: 0 10px; 
+    /* gap: 50px; */
+    border-radius: 50%;
+  }
+
+  h3{
+    font-size: 2.5rem; /* Adjust font size as needed */
+  font-weight: bold; /* Optional: Makes the text bolder */
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient colors */
+  -webkit-background-clip: text; /* Clips the background to the text */
+  -webkit-text-fill-color: transparent; /* Makes the text color transparent so the gradient shows */
+  background-clip: text; /* Standard syntax for background clipping */
+  }
+  
+  
+  
